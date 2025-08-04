@@ -8,7 +8,7 @@
 
 :white_check_mark: Folder paths, synchronization interval and log file path are provided using the command line arguments.
 
-:package: External librarires:
+:package: External libraries:
 - [CommandLineParser](https://github.com/commandlineparser/commandline) - handling commandline arguments with validation, help screen etc.
 - [Serilog](https://github.com/serilog/serilog) - easy console and file logging.
 
@@ -35,7 +35,8 @@ FolderSync.exe **--source** C:\Source **--replica** D:\Source_backup **--interva
 - Unexpected behaviour may occur in case of short synchronization interval and large (in terms of the number and/or size of files) source directory. This case is not yet handled.
 
 ## :bulb: Enhancement ideas
-- Asynchronous operation to proccess multiple files as sync tasks simultaneously.
+- Asynchronous operation to process multiple file operation tasks simultaneously.
 - Consider using FileSystemWatcher to prepare synchronization tasks between sync intervals. (Windows only?)
 - Handle synchronization conflicts in case of short sync interval and large source folder.
-- If source and/or replica folder path does not exist, ask user if he want to create such directories.
+- If source and/or replica folder path does not exist, ask the user to create them.
+- Refactor 🙂
