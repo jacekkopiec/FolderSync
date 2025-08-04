@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FolderSync": {
+      "commandName": "Project",
+      "commandLineArgs": "-s C:\\Space\\jacek\\repos\\Source -r C:\\Space\\jacek\\repos\\replica -i 0.1 -l C:\\logs\\log.txt"
+    }
+  }
+}
