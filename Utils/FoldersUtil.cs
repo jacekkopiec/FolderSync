@@ -4,7 +4,7 @@ using Serilog;
 
 namespace FolderSync.Utils
 {
-    internal class FoldersHandler
+    internal class FoldersUtil
     {
         public static void SyncEmptyFolders(string sourceDirPath, string replicaDirPath)
         {

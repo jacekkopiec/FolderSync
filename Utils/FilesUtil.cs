@@ -7,7 +7,7 @@ using Serilog;
 
 namespace FolderSync.Utils
 {
-    internal class FilesHandler
+    internal class FilesUtil
     {
         public static void SyncFiles(string sourceDirPath, string replicaDirPath)
         {

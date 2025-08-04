@@ -74,8 +74,8 @@ namespace FolderSync
             try
             {
                 Log.Information($"Synchronization started.");
-                FilesHandler.SyncFiles(source, replica);
-                FoldersHandler.SyncEmptyFolders(source, replica);
+                FilesUtil.SyncFiles(source, replica);
+                FoldersUtil.SyncEmptyFolders(source, replica);
                 Log.Information("Synchronization completed.");
             }
             catch (Exception ex)
