@@ -8,7 +8,7 @@
 
 :white_check_mark: Folder paths, synchronization interval and log file path are provided using the command line arguments.
 
-:package: External librarires:
+:package: External libraries:
 - [CommandLineParser](https://github.com/commandlineparser/commandline) - handling commandline arguments with validation, help screen etc.
 - [Serilog](https://github.com/serilog/serilog) - easy console and file logging.
 
