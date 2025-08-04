@@ -35,7 +35,8 @@ FolderSync.exe **--source** C:\Source **--replica** D:\Source_backup **--interva
 - Unexpected behaviour may occur in case of short synchronization interval and large (in terms of the number and/or size of files) source directory. This case is not yet handled.
 
 ## :bulb: Enhancement ideas
-- Asynchronous operation to proccess multiple files as sync tasks simultaneously.
+- Asynchronous operation to process multiple file operation tasks simultaneously.
 - Consider using FileSystemWatcher to prepare synchronization tasks between sync intervals. (Windows only?)
 - Handle synchronization conflicts in case of short sync interval and large source folder.
-- If source and/or replica folder path does not exist, ask user if he want to create such directories.
+- If source and/or replica folder path does not exist, ask the user to create them.
+- Refactor 🙂
